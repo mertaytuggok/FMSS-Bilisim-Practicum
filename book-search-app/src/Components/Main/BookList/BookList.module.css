@@ -1,0 +1,46 @@
+.mainCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid whitesmoke;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  text-align: center;
+  margin: 40px 0 0;
+  padding: 45px 15px 0;
+  max-height: 30rem;
+}
+.images {
+  max-height: 60%;
+}
+
+.title {
+  max-height: 15%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  inline-size: auto;
+  overflow: hidden;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+.button button {
+  background-color: transparent;
+  border: none;
+  color: gray;
+  cursor: pointer;
+}
+.authors {
+  inline-size: auto;
+  overflow: hidden;
+  word-wrap: break-word;
+  color: grey;
+}

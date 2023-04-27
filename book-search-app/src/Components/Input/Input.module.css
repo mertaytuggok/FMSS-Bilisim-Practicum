@@ -1,0 +1,37 @@
+.formMain {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  display: inherit;
+  justify-content: center;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  outline: none;
+}
+
+.formButton {
+  position: relative;
+  margin: 0;
+  padding: 0.4rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+.logo {
+  max-width: 2rem;
+  max-height: 2rem;
+}
